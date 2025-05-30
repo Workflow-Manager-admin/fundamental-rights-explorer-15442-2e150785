@@ -26,9 +26,6 @@ function RightDetail() {
 
   return (
     <div className="right-detail">
-      <Link to="/" className="btn back-btn">
-        ← Back
-      </Link>
       <h1 className="title">{right.title}</h1>
       <div className="explanation">
         {right.explanation}
@@ -38,6 +35,12 @@ function RightDetail() {
       </div>
       <hr />
       <Quiz quizQuestions={right.quiz} />
+      {/* Back button moved below all content and quiz */}
+      <div className="bottom-btn-wrapper">
+        <Link to="/" className="btn back-btn">
+          ← Back
+        </Link>
+      </div>
     </div>
   );
 }
