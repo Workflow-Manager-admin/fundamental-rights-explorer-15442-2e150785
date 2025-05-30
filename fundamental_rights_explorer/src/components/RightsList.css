@@ -3,39 +3,123 @@
   flex-direction: column;
   align-items: center;
   padding: 128px 0 32px 0;
+  min-height: 80vh;
+  background: var(--kavia-dark);
+}
+
+/* Title entrance animation */
+.entrance-title {
+  opacity: 0;
+  transform: translateY(-18px) scale(0.97);
+  animation: title-fade-in 700ms cubic-bezier(.14,.58,.47,1.11) 0.1s forwards;
+  background: linear-gradient(90deg, #ffb30029 0%, #1A237E09 100%);
+  padding-bottom: 0.5rem;
+  border-radius: 0.4em;
+}
+
+@keyframes title-fade-in {
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1.01);
+  }
 }
 
 .rights-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 32px;
-  margin-top: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(247px, 1fr));
+  gap: 39px;
+  margin-top: 2.2rem;
   width: 100%;
-  max-width: 820px;
+  max-width: 900px;
+  place-items: center;
 }
 
 .right-btn {
-  background-color: var(--kavia-orange);
-  color: white;
-  font-size: 1.25rem;
-  font-weight: 500;
-  padding: 2rem 1.5rem;
-  border-radius: 16px;
-  border: none;
+  background: linear-gradient(135deg, #1A237E 55%, #FFB300 120%);
+  color: #222;
+  font-size: 1.27rem;
+  font-weight: 650;
+  padding: 2.22rem 1.5rem 2.22rem 1.5rem;
+  border-radius: 18px;
+  border: 2.5px solid #E8EAF6;
   text-align: center;
   text-decoration: none;
-  box-shadow: 0 4px 16px rgba(232,122,65,0.13);
-  transition: transform 0.18s cubic-bezier(.14,.58,.47,1.12), box-shadow 0.15s;
+  box-shadow: 0 4px 18px 0 rgba(26,35,126,0.12), 0 0px 0px #ffd981;
+  transition: 
+    transform 0.22s cubic-bezier(.16,.52,.48,1.18),
+    box-shadow 0.19s cubic-bezier(.16,.52,.48,1.18),
+    filter 0.20s cubic-bezier(.14,.58,.47,1.12),
+    background 0.22s cubic-bezier(.12,.62,.34,.98),
+    border-color 0.18s cubic-bezier(.16,.52,.48,1.05); 
   outline: none;
   cursor: pointer;
   user-select: none;
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+  z-index: 1;
+  min-height: 88px;
+  letter-spacing: 0.01em;
+  box-sizing: border-box;
 }
 
-.right-btn:focus, .right-btn:hover {
-  transform: scale(1.05);
-  background-color: #ff8b4d;
-  box-shadow: 0 6px 24px rgba(232,122,65,0.23);
+/* Animated bold entrance for grid buttons */
+.btn-entrance {
+  opacity: 0;
+  transform: translateY(36px) scale(0.90);
+  animation: btn-entrance-fade 430ms cubic-bezier(.17,.74,.44,1.2) forwards;
 }
+
+@keyframes btn-entrance-fade {
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1.01);
+  }
+}
+
+/* Eye-catching hover: scale up, shift color toward accent, and cast shadow */
+.right-btn:focus-visible,
+.right-btn:focus,
+.right-btn:hover:not(:active) {
+  color: #222;
+  background: linear-gradient(134deg, #FFB300 77%, #1A237E 210%);
+  filter: brightness(1.04) contrast(1.08);
+  transform: scale(1.065) translateY(-4px);
+  box-shadow: 0 8px 26px 0 rgba(255,179,0,0.25), 0 2px 10px #e8eaf668;
+  border-color: #FFB300;
+  z-index: 2;
+}
+
+/* Subtle press-in effect for click */
+.right-btn:active {
+  /* Slight press-in animation on click */
+  transform: scale(0.96) translateY(1.5px);
+  filter: brightness(0.96) saturate(1.04);
+  box-shadow: 0 3px 8px #1A237E33, 0 1px 2px #FFB30022;
+  background: linear-gradient(137deg, #f9c15a 80%, #1A237E 170%);
+  border-color: #fcc236;
+}
+
+/* Extra: Make sure keyboard navigation works well */
+.right-btn:focus-visible {
+  outline: 4px solid #FFB300;
+  outline-offset: 2.3px;
+}
+
+/* Responsive: shrink padding for smaller screens */
+@media (max-width: 600px) {
+  .rights-list {
+    padding: 88px 0 18px 0;
+  }
+  .rights-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+  .right-btn {
+    min-height: 64px;
+    padding: 1.25rem 1rem;
+    font-size: 1.1rem;
+  }
+}
+
