@@ -33,3 +33,16 @@ Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/worksp
 
 webpack compiled with 3 errors
 Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/fundamental-rights-explorer-15442-2e150785/fundamental_rights_explorer/src'
+ERROR in ./src/App.js 5:0-74
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/fundamental-rights-explorer-15442-2e150785/fundamental_rights_explorer/src'
+
+ERROR in ./src/components/RightDetail.js 6:0-51
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/fundamental-rights-explorer-15442-2e150785/fundamental_rights_explorer/src/components'
+
+ERROR in ./src/components/RightsList.js 5:0-40
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/fundamental-rights-explorer-15442-2e150785/fundamental_rights_explorer/src/components'
+
+webpack compiled with 3 errors
