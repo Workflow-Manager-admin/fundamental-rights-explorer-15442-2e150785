@@ -1,0 +1,1 @@
+{"is_source_file": true, "file_id": 18, "git_revision": "", "state": 1, "description": "", "external_files": [], "external_methods": [], "published": [], "classes": [], "methods": [], "calls": [], "search-terms": [], "hash": "13c40f975a649ecf2786be6c12d25ac4", "format-version": 4, "code-base-name": "default", "filename": "kavia-docs/requirements.md", "knowledge_revision": 36}
