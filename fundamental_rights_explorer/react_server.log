@@ -46,3 +46,136 @@ ERROR in ./src/components/RightsList.js 5:0-40
 Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/fundamental-rights-explorer-15442-2e150785/fundamental_rights_explorer/src/components'
 
 webpack compiled with 3 errors
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/fundamental-rights-explorer-15442-2e150785/fundamental_rights_explorer/src'
+LOG from webpack.FileSystemInfo
+<w> Managed item /home/kavia/workspace/code-generation/fundamental-rights-explorer-15442-2e150785/fundamental_rights_explorer/node_modules/react-router-dom isn't a directory or doesn't contain a package.json (see snapshot.managedPaths option)
++ 13 hidden lines
+
+ERROR in ./src/App.js 5:0-74
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/fundamental-rights-explorer-15442-2e150785/fundamental_rights_explorer/src'
+
+ERROR in ./src/components/RightDetail.js 6:0-51
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/fundamental-rights-explorer-15442-2e150785/fundamental_rights_explorer/src/components'
+
+ERROR in ./src/components/RightsList.js 5:0-40
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/fundamental-rights-explorer-15442-2e150785/fundamental_rights_explorer/src/components'
+
+webpack compiled with 3 errors
+Compiling...
+Failed to compile.
+
+Attempted import error: 'BrowserRouter' is not exported from 'react-router-dom' (imported as 'Router').
+LOG from webpack.FileSystemInfo
+<w> Managed item /home/kavia/workspace/code-generation/fundamental-rights-explorer-15442-2e150785/fundamental_rights_explorer/node_modules/react-router isn't a directory or doesn't contain a package.json (see snapshot.managedPaths option)
++ 13 hidden lines
+
+ERROR in ./src/App.js 18:30-36
+export 'BrowserRouter' (imported as 'Router') was not found in 'react-router-dom' (module has no exports)
+
+ERROR in ./src/App.js 76:41-47
+export 'Routes' (imported as 'Routes') was not found in 'react-router-dom' (module has no exports)
+
+ERROR in ./src/App.js 77:44-49
+export 'Route' (imported as 'Route') was not found in 'react-router-dom' (module has no exports)
+
+ERROR in ./src/App.js 88:43-48
+export 'Route' (imported as 'Route') was not found in 'react-router-dom' (module has no exports)
+
+ERROR in ./src/App.js 99:43-48
+export 'Route' (imported as 'Route') was not found in 'react-router-dom' (module has no exports)
+
+ERROR in ./src/components/RightDetail.js 21:6-15
+export 'useParams' (imported as 'useParams') was not found in 'react-router-dom' (module has no exports)
+
+ERROR in ./src/components/RightDetail.js 32:37-41
+export 'Link' (imported as 'Link') was not found in 'react-router-dom' (module has no exports)
+
+ERROR in ./src/components/RightDetail.js 49:36-40
+export 'Link' (imported as 'Link') was not found in 'react-router-dom' (module has no exports)
+
+ERROR in ./src/components/RightDetail.js 102:10-19
+export 'useParams' (imported as 'useParams') was not found in 'react-router-dom' (module has no exports)
+
+ERROR in ./src/components/RightsList.js 28:68-72
+export 'Link' (imported as 'Link') was not found in 'react-router-dom' (module has no exports)
+
+ERROR in ./node_modules/react-router-dom/dist/index.mjs 13:0-66
+Module not found: Error: Can't resolve 'react-router/dom' in '/home/kavia/workspace/code-generation/fundamental-rights-explorer-15442-2e150785/fundamental_rights_explorer/node_modules/react-router-dom/dist'
+
+ERROR in ./node_modules/react-router-dom/dist/index.mjs 14:0-29
+Module not found: Error: Can't resolve 'react-router' in '/home/kavia/workspace/code-generation/fundamental-rights-explorer-15442-2e150785/fundamental_rights_explorer/node_modules/react-router-dom/dist'
+
+webpack compiled with 12 errors
+Compiling...
+Failed to compile.
+
+Attempted import error: 'BrowserRouter' is not exported from 'react-router-dom' (imported as 'Router').
+ERROR in ./src/App.js 18:30-36
+export 'BrowserRouter' (imported as 'Router') was not found in 'react-router-dom' (module has no exports)
+
+ERROR in ./src/App.js 76:41-47
+export 'Routes' (imported as 'Routes') was not found in 'react-router-dom' (module has no exports)
+
+ERROR in ./src/App.js 77:44-49
+export 'Route' (imported as 'Route') was not found in 'react-router-dom' (module has no exports)
+
+ERROR in ./src/App.js 88:43-48
+export 'Route' (imported as 'Route') was not found in 'react-router-dom' (module has no exports)
+
+ERROR in ./src/App.js 99:43-48
+export 'Route' (imported as 'Route') was not found in 'react-router-dom' (module has no exports)
+
+ERROR in ./src/components/RightDetail.js 21:6-15
+export 'useParams' (imported as 'useParams') was not found in 'react-router-dom' (module has no exports)
+
+ERROR in ./src/components/RightDetail.js 32:37-41
+export 'Link' (imported as 'Link') was not found in 'react-router-dom' (module has no exports)
+
+ERROR in ./src/components/RightDetail.js 49:36-40
+export 'Link' (imported as 'Link') was not found in 'react-router-dom' (module has no exports)
+
+ERROR in ./src/components/RightDetail.js 102:10-19
+export 'useParams' (imported as 'useParams') was not found in 'react-router-dom' (module has no exports)
+
+ERROR in ./src/components/RightsList.js 28:68-72
+export 'Link' (imported as 'Link') was not found in 'react-router-dom' (module has no exports)
+
+webpack compiled with 10 errors
+Compiling...
+Failed to compile.
+
+Attempted import error: 'BrowserRouter' is not exported from 'react-router-dom' (imported as 'Router').
+ERROR in ./src/App.js 18:30-36
+export 'BrowserRouter' (imported as 'Router') was not found in 'react-router-dom' (module has no exports)
+
+ERROR in ./src/App.js 76:41-47
+export 'Routes' (imported as 'Routes') was not found in 'react-router-dom' (module has no exports)
+
+ERROR in ./src/App.js 77:44-49
+export 'Route' (imported as 'Route') was not found in 'react-router-dom' (module has no exports)
+
+ERROR in ./src/App.js 88:43-48
+export 'Route' (imported as 'Route') was not found in 'react-router-dom' (module has no exports)
+
+ERROR in ./src/App.js 99:43-48
+export 'Route' (imported as 'Route') was not found in 'react-router-dom' (module has no exports)
+
+ERROR in ./src/components/RightDetail.js 21:6-15
+export 'useParams' (imported as 'useParams') was not found in 'react-router-dom' (module has no exports)
+
+ERROR in ./src/components/RightDetail.js 32:37-41
+export 'Link' (imported as 'Link') was not found in 'react-router-dom' (module has no exports)
+
+ERROR in ./src/components/RightDetail.js 49:36-40
+export 'Link' (imported as 'Link') was not found in 'react-router-dom' (module has no exports)
+
+ERROR in ./src/components/RightDetail.js 102:10-19
+export 'useParams' (imported as 'useParams') was not found in 'react-router-dom' (module has no exports)
+
+ERROR in ./src/components/RightsList.js 28:68-72
+export 'Link' (imported as 'Link') was not found in 'react-router-dom' (module has no exports)
+
+webpack compiled with 10 errors
